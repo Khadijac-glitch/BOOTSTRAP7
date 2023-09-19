@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+}
+/*************************************************************** Navbar *************************************/
+header h4{
+    color: #CB0D0D;
+}
+header h1{
+    color: #FFFFFF;
+    font-size: 70px;
+    font-family: Montserrat;
+}
+.navbar{
+    background-color: #490909;
+}
+.nav-item .nav-link{
+    color: white;
+    font-size: 20px;
+}
+.navbar-toggler{
+    color: white;
+}
+.navbar-brand{
+    color: white;
+}
+/***************************************************************Section1 *************************************/
+.section1 .somo{
+    background-color: #F6E1C5;
+    width: 300px;
+    border-radius: 10px;
+    position: relative;
+    top: 100px;
+    left: 770px;
+    z-index: 1;
+}
+.section1 .somo p{
+    font-size: 30px;
+}
+.section1 .claire{
+    background-color: #F6E1C5;
+    width: 500px;
+    border-radius: 10px;
+    position: relative;
+    top: -60px;
+}
+.section1 .so img{
+    width: 700px;
+    position: relative;
+    top: 30px;
+}
+
+/***************************************************************Section2 *************************************/
+
+.section2 .jaune{
+    background-color: #F6E1C5;
+    width: 300px;
+    border-radius: 10px;
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+.section2 .jaune p{
+    font-size: 30px;
+}
+.section2 .noir{
+    background-color: #F6E1C5;
+    width: 500px;
+    border-radius: 10px;
+    position: relative;
+    left: 650px;
+    top: -100px;
+}
+.section2 .vivre img{
+    width: 700px;
+}
+
+
+
+.footer{
+    background-color: #311919;
+    color: white;
+}
+
+@media only screen and (max-width: 600px){
+    /* navbar */
+    header h4{
+        display: none;
+    }
+    header h1{
+        display: none;
+    }
+    /* section1 */
+    .section1 .somo{
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 95%;
+        margin: 30px 0px 0 10px;
+    }
+    .section1 .claire{
+        position: relative;
+        top: 0;
+        width: 95%;
+        margin: 30px 0px 0 10px;
+    }
+    .section1 .so img{
+        position: relative;
+        top: 0;
+        width: 100%;
+        margin-top: 20px;
+    }
+    /* section2 */
+    .section2 .jaune{
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 95%;
+        margin: 30px 0px 0 10px;
+    }
+    .section2 .noir{
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 95%;
+        margin: 30px 0px 0 10px;
+    }
+    .section2 .vivre img{
+        position: relative;
+        top: 0;
+        width: 100%;
+        margin-top: 20px;
+    }
+}
