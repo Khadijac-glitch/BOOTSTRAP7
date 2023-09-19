@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(berries-photo-sue-ward-scaled.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.nav-item .nav-link{
+    color: white;
+    font-size: 20px;
+    font-weight:600;
+}
+header h3{
+    color: #f80404;
+    font-weight: 700;
+}
+header h1{
+    color: #FFFFFF;
+    font-size: 80px;
+    font-weight: 50;
+    font-family: 'Abel', sans-serif;
+}
+.navbar{
+    background-color: #490909;
+}
+.nav-link:hover{
+    color: blue;
+}
+/*********************************** SECTION-1 ***********************************/
+.section1 .test{
+    background-color: #F6E1C5;
+    width: 490px;
+    height: 300px;
+    border-radius: 10px;
+    position: relative;
+    top: -300px;
+    left: 100px;
+}
+.section1 .un .ima{
+    width: 730px;
+    /* height: 500px; */
+    position: relative;
+    top: 100px;
+    left: 400px;
+}
+.un button{
+    background-color: #7B261A;
+    color: white;
+    position: relative;
+    left:250px;
+    bottom:330px;
+    width:170px;
+    height:50px;
+}
+/**************************************** SECTION-2 *************************************/
+.section2 .test{
+    background-color: #F6E1C5;
+    width: 600px;
+    height: 250px;
+}
+.contaner{
+    background-color: #A5342BB0;
+    height: 600px;
+}
+.contaner .deux{
+    border: 1px solid #F6E1C5;
+}
+/**************************************** FOOTER *****************************************/
+
+.footer{
+    background-color: #311919;
+    color: white;
+}
+/**************************************** MEDIA ************************************/
+@media only screen and (max-width: 600px){
+    .section1 .test{
+        position: relative;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        
+    }
+    .section1 .un .ima{
+        position: relative;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        margin: 30px 0;
+    }
+    .un button{
+        position: relative;
+        top: -10px;
+        left: 90px;
+    }
+    header h4{
+        display: none;
+    }
+    header h1{
+        display: none;
+    }
+
+    /* section2 */
+    .section2 .test{
+        width: 300px;
+    }
+    .contaner{
+        height: 450px;
+    }
+}
+
