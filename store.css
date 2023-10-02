@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/************************SECTION1  ********************************/
+.section1{
+    background: #A5342BB0;
+    height: 100vh;
+    position: relative;
+    top: 100px;
+    height: 850px;
+}
+.uns .deuxs{
+    border: 2 solid #A5342BB0;
+}
+.deuxs{
+    background:#F6E1C5 ;
+    width:800px;
+    height: 750px;
+    position: relative;
+    left:280px;
+    top: 50px;
+}
+.num{
+    font-size: 22px;
+    font: 700;
+    font-family: 'Dancing Script', cursive;
+}
+.souf{
+    position: relative;
+    bottom:30px; 
+}
+.come{
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.wer{
+    font-weight: 100;
+    font-size: 32px;
+}
+
+
+
+
+
+
+
+/*************************** SECTION2 ****************************/
+.un{
+    padding-top:300px;
+}
+.deux{
+    background-color: #F6E1C5;
+    border-radius: 2%;
+    width: 870px;
+    height:380px;
+    position: relative;
+    left:120px;
+    bottom:100px;
+}
+.trois{
+    position: relative;
+    left: 30px;
+    font-size: 35px;
+    color: grey; 
+}
+.quat{
+    position: relative;
+    left: 30px;
+    bottom: 10px;
+    font-size: 18px;
+}
+.zero{
+    position: relative;
+    left: 30px;
+    font-size: 18px;
+    font-weight:600;
+}
