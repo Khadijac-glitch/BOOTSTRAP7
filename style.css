@@ -103,8 +103,6 @@ header h1{
     header h1{
         display: none;
     }
-
-    /* section2 */
     .section2 .test{
         width: 300px;
     }
@@ -112,4 +110,6 @@ header h1{
         height: 450px;
     }
 }
+
+
 

@@ -1,81 +1,128 @@
-*{
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
-/************************SECTION1  ********************************/
+img{
+    width: 100%;
+}
+/***************************************************************  Navbar *************************************/
+body{
+    padding: 0;
+    margin: 0;
+    background-image:  url("../images/melange.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header h4{
+    color: #CB0D0D;
+}
+header h1{
+    color: #FFFFFF;
+    font-size: 70px;
+    font-family: Montserrat;
+}
+.navbar{
+    background-color: #490909;
+}
+.nav-item .nav-link{
+    color: white;
+    font-size: 20px;
+}
+.navbar-toggler{
+    color: white;
+}
+.navbar-brand{
+    color: white;
+}
+
+/***************************************************************  section1 *************************************/
 .section1{
-    background: #A5342BB0;
-    height: 100vh;
-    position: relative;
-    top: 100px;
-    height: 850px;
+    background-color: #A5342BB0;
 }
-.uns .deuxs{
-    border: 2 solid #A5342BB0;
+.section1 .tirer{
+    border: 3px solid #CD5449;
+    border-radius: 10px;
 }
-.deuxs{
-    background:#F6E1C5 ;
-    width:800px;
-    height: 750px;
-    position: relative;
-    left:280px;
-    top: 50px;
-}
-.num{
-    font-size: 22px;
-    font: 700;
-    font-family: 'Dancing Script', cursive;
-}
-.souf{
-    position: relative;
-    bottom:30px; 
-}
-.come{
-    padding-top: 20px;
-    font-size: 18px;
-    font-weight: 500;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.wer{
-    font-weight: 100;
-    font-size: 32px;
-}
-
-
-
-
-
-
-
-/*************************** SECTION2 ****************************/
-.un{
-    padding-top:300px;
-}
-.deux{
+.section1 .tirer .bac{
     background-color: #F6E1C5;
-    border-radius: 2%;
-    width: 870px;
-    height:380px;
-    position: relative;
-    left:120px;
-    bottom:100px;
+    width: 700px;
+    border-radius: 10px;
 }
-.trois{
-    position: relative;
-    left: 30px;
+.bac .rang{
+    color: black;
+    
+}
+.bac .je{
     font-size: 35px;
-    color: grey; 
 }
-.quat{
+.rang .re{
+    color: #A5342B;
+}
+
+
+/***************************************************************  section2 *************************************/
+
+.section2 .rose{
+    background-color: #F6E1C5;
+    /* height: 300px; */
+    width: 700px;
+    border-radius: 10px;
     position: relative;
-    left: 30px;
-    bottom: 10px;
+    top: -130px;
+    left: 280px;
+}
+.rose .vrai{
+    font-size: 40px;
+    color: rgb(104, 102, 102);
+}
+.rose h4{
+    font-size: 15px;
+}
+.rose .fau{
     font-size: 18px;
 }
-.zero{
-    position: relative;
-    left: 30px;
-    font-size: 18px;
-    font-weight:600;
+
+.footer{
+    background-color: #311919;
+    color: white;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px){
+    /* navbar */
+    header h4{
+       
+    }
+    header h1{
+        display: none;
+    }
+    /* section1 */
+    .section1 .tirer .bac{
+        width: 95%;
+    }
+    .bac .rang{
+        font-size: 10px;
+    }
+    /* section2 */
+    .section2 .rose{
+        top: 0;
+        left: 0;
+        margin: 10px ;
+        width: 95%;
+    }
+    .rose .vrai{
+        font-size: 23px;
+    }
+    .rose .fau{
+        font-size: 14px;
+    }
 }
